@@ -8,7 +8,8 @@
     "start": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint"
+    "lint": "ionic-app-scripts lint",
+    "postinstall": "ionic-app-scripts build"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
@@ -28,9 +29,6 @@
     "@ionic/storage": "2.2.0",
     "@ngx-translate/core": "8.0.0",
     "@ngx-translate/http-loader": "^2.0.0",
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
